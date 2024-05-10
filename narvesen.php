@@ -52,7 +52,7 @@ if ($products) {
     $cart = [];
     $exit = false;
 
-    while (!$exit) {
+    while ($exit !== true) {
         echo "1. View products" . PHP_EOL;
         echo "2. Add product to cart" . PHP_EOL;
         echo "3. View cart" . PHP_EOL;
